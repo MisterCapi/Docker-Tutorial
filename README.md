@@ -48,5 +48,6 @@ docker build -t keras-gpu-moli:latest -f keras-gpu-moli.dockerfile .
   }  
 }  
 ```
-If no ```/usr/bin/nvidia-container-runtime``` is present you might have to install nvidia-container-runtime  
+
+3. If no ```/usr/bin/nvidia-container-runtime``` is present, you might have to install nvidia-container-runtime  
 https://github.com/NVIDIA/nvidia-container-runtime
