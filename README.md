@@ -20,7 +20,7 @@ sudo systemctl restart docker
 ```
 ### Test nvidia-smi with the latest official CUDA image
 ```
-docker run --gpus all nvidia/cuda:10.0-base nvidia-smi
+docker run --gpus all 12.3.1-base-ubuntu20.04 nvidia-smi
 ```
 
 # Dockerfile
